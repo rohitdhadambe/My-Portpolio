@@ -9,6 +9,15 @@ const SocialLinks = () => {
       id: 1,
       child: (
         <>
+          Mail <HiOutlineMail size={30} />
+        </>
+      ),
+      href: "mailto:rohitdhadambe@gmail.com",
+    },
+    {
+      id: 2,
+      child: (
+        <>
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
@@ -16,7 +25,7 @@ const SocialLinks = () => {
       style: "rounded-tr-md",
     },
     {
-      id: 2,
+      id: 3,
       child: (
         <>
           Github <FaGithub size={30} />
@@ -25,7 +34,7 @@ const SocialLinks = () => {
       href: "https://github.com/rohitdhadambe",
     },
     {
-      id: 2,
+      id: 4,
       child: (
         <>
           Leetcode <SiLeetcode size={30} />
@@ -33,17 +42,10 @@ const SocialLinks = () => {
       ),
       href: " https://leetcode.com/u/rohitdhadambe",
     },
+    
+   
     {
-      id: 3,
-      child: (
-        <>
-          Mail <HiOutlineMail size={30} />
-        </>
-      ),
-      href: "mailto:rohitdhadambe@gmail.com",
-    },
-    {
-      id: 4,
+      id: 5,
       child: (
         <>
           Resume <BsFillPersonLinesFill size={30} />
