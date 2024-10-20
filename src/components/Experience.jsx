@@ -1,15 +1,15 @@
-import React from "react";
-
 import html from "../asssets/html.png";
 import css from "../asssets/css.png";
 import javascript from "../asssets/javascript.png";
 import reactImage from "../asssets/react.png";
-import nextjs from "../asssets/nextjs.png";
-// import graphql from "../asssets/graphql.png";
 import github from "../asssets/github.png";
-import bootstrap from "../asssets/bootstrap.png";
 import tailwind from "../asssets/tailwind.png";
+import mongoDB from "../asssets/mongoDB.jpeg";
+import Mysql from "../asssets/mysql.png";
+import node from "../asssets/node.png";
+import cpp from "../asssets/cpp.png";
 import python from "../asssets/python.png";
+import leetcode from "../asssets/leetcode.png";
 
 const Experience = () => {
   const techs = [
@@ -27,51 +27,63 @@ const Experience = () => {
     },
     {
       id: 3,
-      src: javascript,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
-    },
-    {
-      id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-600",
-    },
-    {
-      id: 5,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
     {
-      id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
+      id: 4,
+      src: javascript,
+      title: "JavaScript",
+      style: "shadow-yellow-500",
     },
-    // {
-    //   id: 7,
-    //   src: graphql,
-    //   title: "GraphQL",
-    //   style: "shadow-pink-400",
-    // },
+    {
+      id: 5,
+      src: reactImage,
+      title: "React",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 6,
+      src: node,
+      title: "Node JS",
+      style: "shadow-green-400",
+    },
+    {
+      id: 7,
+      src: cpp,
+      title: "C++",
+      style: "shadow-blue-500",
+    },
     {
       id: 8,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
+      src: python,
+      title: "Python",
+      style: "shadow-yellow-400",
     },
     {
       id: 9,
-      src: bootstrap,
-      title: "Bootstrap",
-      style: "shadow-purple-400",
+      src: leetcode,
+      title: "LeetCode",
+      style: "shadow-gray-500",
     },
     {
       id: 10,
-      src: python,
-      title: "python",
-      style: "shadow-blue-400",
+      src: mongoDB,
+      title: "MongoDB",
+      style: "shadow-green-400",
+    },
+    {
+      id: 11,
+      src: Mysql,
+      title: "MySQL",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 12,
+      src: github,
+      title: "GitHub",
+      style: "shadow-gray-400",
     },
   ];
 
@@ -94,7 +106,7 @@ const Experience = () => {
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-20 mx-auto" />
+              <img src={src} alt={title} className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
             </div>
           ))}

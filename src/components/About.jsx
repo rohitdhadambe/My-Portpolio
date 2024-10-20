@@ -1,4 +1,3 @@
-import React from "react";
 
 const About = () => {
   return (
@@ -14,13 +13,11 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-        Ambitious 4th year B.Tech student at the Academy of Technology, with a diverse technical skill set and a passion for innovation🚀.Proficient in a range of programming languages including C,C++,Java, Python, and JavaScript. Focused on honing my skills in frontend web development and data science, with experience in technologies like React.js, SQL, PowerBI, and statistics. Possess deep knowledge of IoT with hands-on experience.🧑‍💻
+        I am a dedicated 3rd-year Computer Engineering student at G.H. Raisoni College of Engineering and Management, Pune (Autonomous Institute) 🎓, with a strong foundation in computer science concepts and practical experience in both front-end and back-end development. 💻 I’ve worked extensively with technologies like HTML, CSS, JavaScript, React 🌐 on the front-end, and Node.js, Express, MySQL, and MongoDB on the back-end 🔧, giving me a well-rounded understanding of full-stack development. Currently, I’m working on a project that integrates both aspects, allowing me to build responsive interfaces while managing server-side logic and databases seamlessly.
         </p>
-
         <br />
-
         <p className="text-xl">
-        Seeking opportunities to apply my multifaceted technical expertise. Eager to collaborate with like-minded professionals and contribute to cutting-edge solutions that make a real impact. Committed to continuous learning and personal growth, to stay ahead of the curve in an ever-evolving technological landscape.📈
+        My passion for technology fuels my desire to innovate and stay updated with the latest advancements 📱🚀. I am particularly interested in exploring cloud computing, machine learning, and web development 💡, and I continuously strive to deepen my knowledge in these fields. I enjoy taking on challenges that push my problem-solving abilities and creativity, whether through team collaboration or individual efforts. I am driven by the opportunity to develop solutions that can have a meaningful impact on the world 🌍✨.
         </p>
       </div>
     </div>

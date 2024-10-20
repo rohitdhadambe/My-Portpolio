@@ -1,43 +1,16 @@
-import React from "react";
-import ecom_dash from "../asssets/portfolio/ecom_dash.jpg";
-// import installNode from "../assets/portfolio/installNode.jpg";
+import greencredit from "../../src/asssets/portfolio/greencredit.jpg";
 import Usability from "../asssets/portfolio/Usability.jpg";
 import EDA from "../asssets/portfolio/EDA.jpg";
 import anime from "../asssets/portfolio/anime.jpg";
 import pass from "../asssets/portfolio/pass.jpg";
-// import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: ecom_dash,
-      demoLink: "https://github.com/Abir-0007/Power_BI_project1/blob/main/ECOMMERCE_SALES_DASHBOARD1.pdf",
-      codeLink: "https://github.com/Abir-0007/Power_BI_project1",
-    },
-    {
-      id: 2,
-      src: EDA,
-      demoLink: "https://github.com/Abir-0007/Exploratory-Data-Analysis/blob/main/EDA%20of%20Titanic%20Dataset%20(Detailed%20explanation).ipynb",
-      codeLink: "https://github.com/Abir-0007/Exploratory-Data-Analysis",
-    },
-    {
-      id: 3,
-      src: Usability,
-      demoLink: "https://abir-0007.github.io/Usability-clone-website/",
-      codeLink: "https://github.com/Abir-0007/Usability-clone-website",
-    },
-    {
-      id: 4,
-      src: anime,
-      demoLink: "https://abir-0007.github.io/funky-anime-content/",
-      codeLink: "https://github.com/Abir-0007/funky-anime-content",
-    },
-    {
-      id: 5,
-      src: pass,
-      demoLink: "https://react-password-generator-mauve-eight.vercel.app/",
-      codeLink: "https://github.com/Abir-0007/React_password_generator",
+      src: greencredit,
+      demoLink: "https://greencreditmanagement102.netlify.app/",
+      codeLink: "https://github.com/rohitdhadambe/GREEN_CREDIT_MANAGEMENT__7",
     },
    
   ];
