@@ -22,7 +22,7 @@ export default function Contact() {
       const data = await response.json();
 
       if (data.success) {
-        setResult("Contact Form  Submitted Successfully");
+        setResult("Contact Form Submitted Successfully");
         event.target.reset(); // Clear the form fields after successful submission
       } else {
         console.log("Error:", data);
@@ -69,12 +69,12 @@ export default function Contact() {
             loading ? "opacity-50 cursor-not-allowed" : "hover:scale-110"
           } transition-transform duration-300`}
         >
-          {loading ? "Sending..." : "contact-->"}
+          {loading ? "Sending..." : "Contact-->"}
         </button>
       </form>
       
       {/* Show the result message only when there is one */}
-      {result && <span className="text-lg mt-4">{result}</span>}
+      {result && <span className={`text-lg mt-4 ${result.includes("Successfully") ? "text-green-500" : "text-red-500"}`}>{result}</span>}
     </div>
   );
 }

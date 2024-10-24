@@ -1,11 +1,20 @@
 import greencredit from "../../src/asssets/portfolio/greencredit.jpg";
-import Usability from "../asssets/portfolio/Usability.jpg";
-import EDA from "../asssets/portfolio/EDA.jpg";
-import anime from "../asssets/portfolio/anime.jpg";
-import pass from "../asssets/portfolio/pass.jpg";
+
 
 const Portfolio = () => {
   const portfolios = [
+    {
+      id: 1,
+      src: greencredit,
+      demoLink: "https://greencreditmanagement102.netlify.app/",
+      codeLink: "https://github.com/rohitdhadambe/GREEN_CREDIT_MANAGEMENT__7",
+    },
+    {
+      id: 1,
+      src: greencredit,
+      demoLink: "https://greencreditmanagement102.netlify.app/",
+      codeLink: "https://github.com/rohitdhadambe/GREEN_CREDIT_MANAGEMENT__7",
+    },
     {
       id: 1,
       src: greencredit,
