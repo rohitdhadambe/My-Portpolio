@@ -3,7 +3,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full  bg-gradient-to-b from-gray-800 to-black text-white  "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -12,7 +12,7 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-20">
+        <p className="text-xl mt-10">
         I am a dedicated 3rd-year Computer Engineering student at G.H. Raisoni College of Engineering and Management, Pune (Autonomous Institute) 🎓, with a strong foundation in computer science concepts and practical experience in both front-end and back-end development. 💻 I’ve worked extensively with technologies like HTML, CSS, JavaScript, React 🌐 on the front-end, and Node.js, Express, MySQL, and MongoDB on the back-end 🔧, giving me a well-rounded understanding of full-stack development. Currently, I’m working on a project that integrates both aspects, allowing me to build responsive interfaces while managing server-side logic and databases seamlessly.
         </p>
         <br />
