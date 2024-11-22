@@ -1,7 +1,8 @@
 
 const About = () => {
   return (
-    <div
+    <div className="text-lg md:text-xl lg:text-2xl">
+    <div 
       name="about"
       className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
@@ -20,6 +21,7 @@ const About = () => {
         My passion for technology fuels my desire to innovate and stay updated with the latest advancements 📱🚀. I am particularly interested in exploring cloud computing, machine learning, and web development 💡, and I continuously strive to deepen my knowledge in these fields. I enjoy taking on challenges that push my problem-solving abilities and creativity, whether through team collaboration or individual efforts. I am driven by the opportunity to develop solutions that can have a meaningful impact on the world 🌍✨.
         </p>
       </div>
+    </div>
     </div>
   );
 };
