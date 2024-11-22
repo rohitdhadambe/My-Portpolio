@@ -88,7 +88,6 @@ const Experience = () => {
   ];
 
   return (
-    <div className="text-lg md:text-xl lg:text-2xl">
     <div
       name="experience"
       className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
@@ -113,7 +112,6 @@ const Experience = () => {
           ))}
         </div>
       </div>
-    </div>
     </div>
   );
 };

@@ -37,7 +37,6 @@ export default function Contact() {
   };
 
   return (
-    <div className="text-lg md:text-xl lg:text-2xl">
     <div id="contact" className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
       <h1 className="text-4xl font-bold mb-8">Contact Me</h1>
       <form onSubmit={onSubmit} className="flex flex-col w-full md:w-1/2 p-4">
@@ -76,7 +75,6 @@ export default function Contact() {
       
       {/* Show the result message only when there is one */}
       {result && <span className={`text-lg mt-4 ${result.includes("Successfully") ? "text-green-500" : "text-red-500"}`}>{result}</span>}
-    </div>
     </div>
   );
 }
