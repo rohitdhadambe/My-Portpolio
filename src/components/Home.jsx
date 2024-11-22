@@ -6,7 +6,7 @@ import './Home.css'; // Importing the CSS file
 
 const Home = () => {
   return (
-    <div className="text-lg md:text-xl lg:text-2xl">
+  
     <div
       name="home"
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
@@ -63,7 +63,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-    </div>
+    
   );
 };
 
