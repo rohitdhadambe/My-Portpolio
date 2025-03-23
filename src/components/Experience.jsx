@@ -85,6 +85,24 @@ const Experience = () => {
       title: "GitHub",
       style: "shadow-gray-400",
     },
+    {
+      id: 13,
+      src: mongoDB,
+      title: "MongoDB",
+      style: "shadow-green-400",
+    },
+    {
+      id: 14,
+      src: Mysql,
+      title: "MySQL",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 15,
+      src: github,
+      title: "GitHub",
+      style: "shadow-gray-400",
+    },
   ];
 
   return (
@@ -97,7 +115,7 @@ const Experience = () => {
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline ">
             Experience
           </p>
-          <p className="py-6">These are the technologies I Have worked with</p>
+          <p className="py-6">These are the Tools and Technologies I Have worked with</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
