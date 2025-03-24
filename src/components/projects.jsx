@@ -1,7 +1,5 @@
 import greencredit from "../asssets/portfolio/greencredit.jpg";
-import Amazonclone from "../asssets/portfolio/Amazon clone.png"
-import login from "../asssets/portfolio/login.png"
-import shopwell from "../asssets/portfolio/shopwell.png"
+import opensource from "../asssets/portfolio/Amazon clone.png"
 
 
 
@@ -16,23 +14,10 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: Amazonclone,
-      name: "Amazon clone - INTERFACE",
-      demoLink: "https://amazonclone101.netlify.app/",
-      codeLink: "https://github.com/rohitdhadambe/Amazonclone",
-    },{
-      id: 3,
-      src: login,
-      name: "Authentication System",
-      demoLink: "https://react-login-project-89za.vercel.app/",
-      codeLink: "https://github.com/rohitdhadambe/React_LoginProject",
-    },
-    {
-      id: 4,
-      src: shopwell,
-      name: "E-commerce website (AI Based website)",
-      demoLink: "",
-      codeLink: "https://github.com/rohitdhadambe/Shopwell",
+      src: opensource,
+      name: " Open source contribution platform",
+      demoLink: "https://inovate-togother.web.app",
+      codeLink: "https://github.com/rohitdhadambe/INNOVATE_TOGOTHER__7",
     },
   ];
   return (

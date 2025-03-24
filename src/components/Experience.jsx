@@ -9,6 +9,9 @@ import Mysql from "../asssets/mysql.png";
 import node from "../asssets/node.png";
 import cpp from "../asssets/cpp.png";
 import python from "../asssets/python.png";
+import Java from "../asssets/Java.jpg";
+import Postgre from "../asssets/Postgre.jpg";
+import Firebase from "../asssets/Firebase.jpg";
 import leetcode from "../asssets/leetcode.png";
 
 const Experience = () => {
@@ -63,8 +66,8 @@ const Experience = () => {
     },
     {
       id: 9,
-      src: leetcode,
-      title: "LeetCode",
+      src: Java,
+      title: "Java",
       style: "shadow-gray-500",
     },
     {
@@ -81,20 +84,20 @@ const Experience = () => {
     },
     {
       id: 12,
-      src: github,
-      title: "GitHub",
+      src: Postgre,
+      title: "Postgre SQL",
       style: "shadow-gray-400",
     },
     {
       id: 13,
-      src: mongoDB,
-      title: "MongoDB",
+      src: Firebase,
+      title: "Firebase",
       style: "shadow-green-400",
     },
     {
       id: 14,
-      src: Mysql,
-      title: "MySQL",
+      src: leetcode,
+      title: "leetcode",
       style: "shadow-blue-500",
     },
     {
